@@ -170,12 +170,16 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameWin.cpp" />
     <ClCompile Include="Login.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Manual.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="GameWin.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="Login.h">
@@ -191,6 +195,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Game.resx">
       <DependentUpon>Game.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameWin.resx">
+      <DependentUpon>GameWin.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.h</DependentUpon>
